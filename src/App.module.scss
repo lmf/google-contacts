@@ -1,0 +1,24 @@
+.App {
+  // text-align: center;
+  padding: 0 10px;
+}
+
+.WindowScrollerWrapper {
+
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.search {
+  display: flex;
+  input {
+    display: block;
+    width: 600px;
+    height: 50px;
+    outline: none;
+    box-sizing: border-box;
+  }
+}

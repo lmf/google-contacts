@@ -1,0 +1,42 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.header-wrapper {
+  background: #fff;
+  border-bottom: 1px solid rgba(0,0,0,.12);
+  box-sizing: border-box;
+  cursor: default;
+  display: table;
+  height: 50px;
+  overflow: hidden;
+  table-layout: fixed;
+  user-select: none;
+  width: 100%;
+
+  & > .cell {
+    font-size: .875rem;
+    font-weight: 500;
+    line-height: 1.25rem;
+    box-sizing: border-box;
+    color: #5f6368;
+    display: table-cell;
+    overflow: hidden;
+    padding: 4px;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+    white-space: nowrap;
+  }
+}
+.search {
+  // width: 600px;
+  // height: 50px;
+  input {
+    display: block;
+    width: 600px;
+    height: 50px;
+    outline: none;
+    box-sizing: border-box;
+  }
+}

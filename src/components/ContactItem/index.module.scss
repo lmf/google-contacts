@@ -1,0 +1,19 @@
+.contact-item {
+  display: table;
+  height: 56px;
+  width: 100%;
+  table-layout: fixed;
+  .cell {
+    box-sizing: border-box;
+    display: table-cell;
+    overflow: hidden;
+    padding: 4px;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+    white-space: nowrap;
+  }
+  &-photo {
+    width: 68px;
+    padding-left: 12px;
+  }
+}
